@@ -25,7 +25,7 @@ const WorkCard = (props) => {
           zIndex={0}
         >
           <LinkOverlay href={props.url} position="relative">
-            <Image src={props.image} />
+            <Image src={props.image} alt={props.name} />
           </LinkOverlay>
         </LinkBox>
       </AnimatedBox>

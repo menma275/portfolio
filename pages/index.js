@@ -90,7 +90,7 @@ export default function Home() {
             </GridItem>
             <GridItem m="auto">
               <Box maxW={300} rounded={10} overflow="hidden">
-                <Image src={Portrait} />
+                <Image src={Portrait} alt="portrait" />
               </Box>
             </GridItem>
           </Grid>
@@ -145,7 +145,7 @@ export default function Home() {
           </AnimatedBox>
           <AnimatedBox>
             <Text color={secondary}>
-              Feel free to drop me an email if you'd like to contact.
+              Feel free to drop me an email if you'd like to contact me.
             </Text>
             <HStack mt={2} fontSize="xl" align="center">
               <Text fontSize="2xl">
