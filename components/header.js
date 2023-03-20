@@ -35,9 +35,9 @@ export default function Header() {
       backdropFilter="blur(20px)"
       fontSize="md"
       align="center"
-      paddingY={5}
+      paddingY={(1, 1, 5, 5)}
     >
-      <Link href="#" fontSize="3xl" letterSpacing={3}>
+      <Link href="#" fontSize={["xl", "2xl", "2xl", "3xl"]} letterSpacing={3}>
         sakamura
       </Link>
       <Spacer />

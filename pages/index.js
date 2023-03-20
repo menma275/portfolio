@@ -60,7 +60,7 @@ export default function Home() {
             gap={10}
           >
             <GridItem m="auto">
-              <Text fontSize={["3xl", "3xl", "4xl", "4xl"]} lineHeight={1.5}>
+              <Text fontSize={["2xl", "3xl", "4xl", "4xl"]} lineHeight={1.5}>
                 <Box
                   as="span"
                   onMouseEnter={() => setIsHover(true)}
@@ -71,15 +71,20 @@ export default function Home() {
                 , I&apos;m <br />
                 Kusuke SAKAMURA.
               </Text>
-              <Text fontSize="2xl" my={3}>
+              <Text fontSize={["xl", "2xl", "2xl", "2xl"]} my={3}>
                 Generative Artist & Creative Coder
               </Text>
-              <Text fontSize="md" color={secondary}>
+              <Text fontSize={["sm", "sm", "md", "md"]} color={secondary}>
                 Making Generative art with p5.js and shader.
                 <br />
                 Student of Tokyo Metropolitan Univ.
               </Text>
-              <Flex fontSize="3xl" color={color} mt={5}>
+              <Flex
+                display={["none", "none", "flex", "flex"]}
+                fontSize="4xl"
+                color={color}
+                mt={5}
+              >
                 <Link href="https://twitter.com/menma275" marginRight={5}>
                   <FaTwitter />
                 </Link>
@@ -88,17 +93,42 @@ export default function Home() {
                 </Link>
               </Flex>
             </GridItem>
-            <GridItem m="auto">
-              <Box maxW={300} rounded={10} overflow="hidden">
-                <Image src={Portrait} alt="portrait" />
-              </Box>
+            <GridItem w="100%" m="auto">
+              {/* ------ sm mdで表示 ------ */}
+              <HStack>
+                <Spacer />
+                <VStack
+                  display={["flex", "flex", "none", "none"]}
+                  fontSize="4xl"
+                  color={color}
+                >
+                  <Link href="https://twitter.com/menma275">
+                    <FaTwitter />
+                  </Link>
+                  <Spacer />
+                  <Link href="https://www.linkedin.com/in/kusuke-sakamura-09544325a">
+                    <FaLinkedin />
+                  </Link>
+                </VStack>
+                <Spacer />
+                {/* ------------ */}
+                <Box
+                  mx="auto"
+                  maxW={[200, 200, 300, 300]}
+                  rounded={10}
+                  overflow="hidden"
+                >
+                  <Image src={Portrait} alt="portrait" />
+                </Box>
+                <Spacer />
+              </HStack>
             </GridItem>
           </Grid>
         </Flex>
         {/* Links section */}
         <Box>
           <AnimatedBox>
-            <Text id="Links" fontSize="3xl" mb={3}>
+            <Text id="Links" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={3}>
               Links
             </Text>
           </AnimatedBox>
@@ -119,7 +149,7 @@ export default function Home() {
         {/* Works section */}
         <Box mt={10}>
           <AnimatedBox>
-            <Text id="Works" fontSize="3xl" mb={1}>
+            <Text id="Works" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
               Works
             </Text>
             <Text color={secondary} mb={3}>
@@ -144,7 +174,7 @@ export default function Home() {
         <Box mt={10}>
           <AnimatedBox>
             <Element name="Contact">
-              <Text id="Contact" fontSize="3xl" mb={1}>
+              <Text id="Contact" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
                 Contact
               </Text>
             </Element>
@@ -157,14 +187,16 @@ export default function Home() {
               <Text fontSize="2xl">
                 <HiMail />
               </Text>
-              <Text>sakamura.ga@gmail.com</Text>
+              <Text fontSize={["md", "xl", "xl", "xl"]}>
+                sakamura.ga@gmail.com
+              </Text>
             </HStack>
           </AnimatedBox>
         </Box>
       </Container>
       {/* Footer */}
       <Box marginTop={30} paddingY={5} color={color}>
-        <Text fontWeight="light" textAlign="center">
+        <Text fontSize={"sm"} fontWeight="light" textAlign="center">
           © 2023 Kusuke SAKAMURA. All Rights Reserved.
           <br />
           Built with <Link href="https://nextjs.org/">Next.js</Link> and

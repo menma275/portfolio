@@ -38,7 +38,7 @@ const LinkCard = (props) => {
             <LinkOverlay href={props.url} fontSize="xl">
               {props.name}
             </LinkOverlay>
-            <Text>{props.description}</Text>
+            <Text fontSize="sm">{props.description}</Text>
           </LinkBox>
         </Box>
       </AnimatedBox>
