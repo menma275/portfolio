@@ -68,7 +68,7 @@ export default function Home() {
                 >
                   {isHover ? "👋" : "Hi"}
                 </Box>
-                , I'm <br />
+                , I&apos;m <br />
                 Kusuke SAKAMURA.
               </Text>
               <Text fontSize="2xl" my={3}>
@@ -106,8 +106,9 @@ export default function Home() {
             templateColumns={"repeat(auto-fit, minmax(200px, 1fr))"}
             gap={6}
           >
-            {LinkList.map((list) => (
+            {LinkList.map((list, index) => (
               <LinkCard
+                key={index}
                 name={list.name}
                 description={list.description}
                 url={list.url}
@@ -129,8 +130,13 @@ export default function Home() {
             templateColumns={"repeat(auto-fit, minmax(200px, 1fr))"}
             gap={6}
           >
-            {WorkList.map((work) => (
-              <WorkCard url={work.url} image={work.image} name={work.name} />
+            {WorkList.map((work, index) => (
+              <WorkCard
+                key={index}
+                url={work.url}
+                image={work.image}
+                name={work.name}
+              />
             ))}
           </Grid>
         </Box>
@@ -145,7 +151,7 @@ export default function Home() {
           </AnimatedBox>
           <AnimatedBox>
             <Text color={secondary}>
-              Feel free to drop me an email if you'd like to contact me.
+              Feel free to drop me an email if you&apos;d like to contact me.
             </Text>
             <HStack mt={2} fontSize="xl" align="center">
               <Text fontSize="2xl">
