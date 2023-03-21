@@ -42,7 +42,7 @@ export default function Home() {
     <Box fontWeight="medium" bg={bg} color={color}>
       <Head>
         <title>sakamura</title>
-        <meta name="description" content="sakamura's Portfolio Site" />
+        <meta name="description" content="sakamura's Portfolio site" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="../public/Poppins-Semibold.ttf" />
       </Head>
