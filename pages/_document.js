@@ -23,7 +23,8 @@ export default function Document() {
         <meta property="og:url" content="sakamura.dev" />
         <meta
           property="og:image"
-          content="https://wwww.sakamura.dev/public/OGP.png"
+          content="/OGP.png"
+          // content="https://wwww.sakamura.dev/public/OGP.png"
         />
       </Head>
       <body>
