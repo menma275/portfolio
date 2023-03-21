@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <ChakraProvider
       theme={extendTheme({
         fonts: {
-          body: "Poppins, sans-serif",
+          body: "Poppins, sans-serif;",
         },
       })}
     >
