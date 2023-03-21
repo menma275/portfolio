@@ -53,7 +53,7 @@ export default function Home() {
           property="og:description"
           content="Generative Artist & Creative Coder"
         />
-        <meta property="og:image" content="https://wwww.sakamura.dev/OGP.jpg" />
+        <meta property="og:image" content="https://www.sakamura.dev/OGP.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Head>
