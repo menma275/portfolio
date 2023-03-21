@@ -96,6 +96,7 @@ export default function Header() {
                 smooth={true}
                 duration={600}
                 offset={-90}
+                onClick={onClose}
               >
                 Links
               </Scroll>
@@ -105,6 +106,7 @@ export default function Header() {
                 smooth={true}
                 duration={600}
                 offset={-90}
+                onClick={onClose}
               >
                 Works
               </Scroll>
@@ -114,6 +116,7 @@ export default function Header() {
                 smooth={true}
                 duration={600}
                 offset={-90}
+                onClick={onClose}
               >
                 Contact
               </Scroll>
