@@ -34,6 +34,7 @@ import Portrait from "../public/face.jpg";
 export default function Home() {
   const bg = useColorModeValue("orange.50", "gray.900");
   const color = useColorModeValue("gray.900", "gray.50");
+  const yellow = "#F5B111";
   const secondary = useColorModeValue("gray.600", "gray.400");
   const [isHover, setIsHover] = useState(false);
 
@@ -117,6 +118,7 @@ export default function Home() {
                   maxW={[200, 200, 300, 300]}
                   rounded={10}
                   overflow="hidden"
+                  boxShadow="10px 10px 0px #F5B111"
                 >
                   <Image src={Portrait} alt="portrait" />
                 </Box>
