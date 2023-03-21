@@ -21,7 +21,10 @@ export default function Document() {
           content="Generative Artist & Creative Coder"
         />
         <meta property="og:url" content="sakamura.dev" />
-        <meta property="og:image" content="https://wwww.sakamura.dev/OGP.png" />
+        <meta
+          property="og:image"
+          content="https://wwww.sakamura.dev/public/OGP.png"
+        />
       </Head>
       <body>
         <Main />
