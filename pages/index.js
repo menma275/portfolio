@@ -44,7 +44,6 @@ export default function Home() {
         <title>sakamura</title>
         <meta name="description" content="sakamura's Portfolio site" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="../public/Poppins-Semibold.ttf" />
         {/* OGP */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:url" content="https://www.sakamura.dev/" />
