@@ -97,16 +97,30 @@ export default function Home() {
                 color={color}
                 mt={5}
               >
-                <Link href="https://twitter.com/menma275" marginRight={5}>
+                <Link
+                  href="https://twitter.com/menma275"
+                  marginRight={5}
+                  _hover={{
+                    color: yellow,
+                  }}
+                >
                   <FaTwitter />
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/kusuke-sakamura-09544325a"
                   marginRight={5}
+                  _hover={{
+                    color: yellow,
+                  }}
                 >
                   <FaLinkedin />
                 </Link>
-                <Link href="https://github.com/menma275">
+                <Link
+                  href="https://github.com/menma275"
+                  _hover={{
+                    color: yellow,
+                  }}
+                >
                   <FaGithub />
                 </Link>
               </Flex>
@@ -120,15 +134,30 @@ export default function Home() {
                   fontSize="4xl"
                   color={color}
                 >
-                  <Link href="https://twitter.com/menma275">
+                  <Link
+                    href="https://twitter.com/menma275"
+                    _hover={{
+                      color: yellow,
+                    }}
+                  >
                     <FaTwitter />
                   </Link>
                   <Spacer />
-                  <Link href="https://www.linkedin.com/in/kusuke-sakamura-09544325a">
+                  <Link
+                    href="https://www.linkedin.com/in/kusuke-sakamura-09544325a"
+                    _hover={{
+                      color: yellow,
+                    }}
+                  >
                     <FaLinkedin />
                   </Link>
                   <Spacer />
-                  <Link href="https://github.com/menma275">
+                  <Link
+                    href="https://github.com/menma275"
+                    _hover={{
+                      color: yellow,
+                    }}
+                  >
                     <FaGithub />
                   </Link>
                 </VStack>
