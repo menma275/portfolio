@@ -16,7 +16,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { useState } from "react";
 import { Element } from "react-scroll";
@@ -100,8 +100,14 @@ export default function Home() {
                 <Link href="https://twitter.com/menma275" marginRight={5}>
                   <FaTwitter />
                 </Link>
-                <Link href="https://www.linkedin.com/in/kusuke-sakamura-09544325a">
+                <Link
+                  href="https://www.linkedin.com/in/kusuke-sakamura-09544325a"
+                  marginRight={5}
+                >
                   <FaLinkedin />
+                </Link>
+                <Link href="https://github.com/menma275">
+                  <FaGithub />
                 </Link>
               </Flex>
             </GridItem>
@@ -120,6 +126,10 @@ export default function Home() {
                   <Spacer />
                   <Link href="https://www.linkedin.com/in/kusuke-sakamura-09544325a">
                     <FaLinkedin />
+                  </Link>
+                  <Spacer />
+                  <Link href="https://github.com/menma275">
+                    <FaGithub />
                   </Link>
                 </VStack>
                 <Spacer />
