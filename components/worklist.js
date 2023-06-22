@@ -1,5 +1,17 @@
 export const WorkList = [
   {
+    name: "cube",
+    url: "https://www.fxhash.xyz/generative/27656",
+    image:
+      "https://media.fxhash.xyz/w_768/QmeSPebTJpN8pJCPzWHvMNK7cTKJadx6uki8BpST8xpt9E",
+  },
+  {
+    name: "melt",
+    url: "https://www.fxhash.xyz/generative/25883",
+    image:
+      "https://media.fxhash.xyz/w_768/QmenHA7u62bYAd7GePMp84S4tkM734YFT8tvs5aUa1Nkjd",
+  },
+  {
     name: "round",
     url: "https://www.fxhash.xyz/generative/23320",
     image:
