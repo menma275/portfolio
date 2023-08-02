@@ -29,7 +29,8 @@ import WorkCard from "@/components/workcard";
 import { WorkList } from "@/components/worklist";
 import AnimatedBox from "@/components/animatedbox";
 
-import Portrait from "../public/face.jpg";
+import Portrait from "../public/face2.png";
+// import Portrait from "../public/face.jpg";
 
 export default function Home() {
   const bg = useColorModeValue("orange.50", "gray.900");
@@ -165,10 +166,11 @@ export default function Home() {
                 {/* ------------ */}
                 <Box
                   mx="auto"
-                  maxW={[200, 200, 300, 300]}
+                  maxW={[300, 300, 400, 400]}
+                  // maxW={[200, 200, 300, 300]}
                   rounded={10}
                   overflow="hidden"
-                  boxShadow="10px 10px 0px #F5B111"
+                  // boxShadow="10px 10px 0px #F5B111"
                 >
                   <Image src={Portrait} alt="portrait" />
                 </Box>
