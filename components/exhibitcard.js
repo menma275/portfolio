@@ -10,7 +10,7 @@ import {
 
 import AnimatedBox from "./animatedbox";
 
-const LinkCard = (props) => {
+const ExhibitCard = (props) => {
   return (
     <GridItem>
       <AnimatedBox>
@@ -38,8 +38,16 @@ const LinkCard = (props) => {
             <LinkOverlay href={props.url} fontSize="xl">
               {props.name}
             </LinkOverlay>
-            <Text fontSize="sm" marginTop={"0.5rem"}>
+            <Text fontSize="sm" marginTop={"0.75rem"}>
               {props.description}
+            </Text>
+            <Text
+              fontSize="sm"
+              borderTop={"1px"}
+              marginTop={"0.5rem"}
+              paddingTop={"0.5rem"}
+            >
+              {props.relate}
             </Text>
           </LinkBox>
         </Box>
@@ -48,4 +56,4 @@ const LinkCard = (props) => {
   );
 };
 
-export default LinkCard;
+export default ExhibitCard;

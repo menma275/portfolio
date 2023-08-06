@@ -27,6 +27,8 @@ import LinkCard from "@/components/linkcard";
 import { LinkList } from "@/components/linklist";
 import WorkCard from "@/components/workcard";
 import { WorkList } from "@/components/worklist";
+import ExhibitCard from "@/components/exhibitcard";
+import { ExhibitList } from "@/components/exhibitlist";
 import AnimatedBox from "@/components/animatedbox";
 
 import Portrait from "../public/face2.png";
@@ -88,7 +90,7 @@ export default function Home() {
                 Generative Artist & Creative Coder
               </Text>
               <Text fontSize={["sm", "sm", "md", "md"]} color={secondary}>
-                Making Generative art with p5.js and shader.
+                Making Generative art with p5.js, three.js and shader.
                 <br />
                 Student of Tokyo Metropolitan Univ.
               </Text>
@@ -200,11 +202,33 @@ export default function Home() {
             ))}
           </Grid>
         </Box>
+        {/* Exhibition section */}
+        {/* <Box mt={10}>
+          <AnimatedBox>
+            <Text id="Exhibit" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
+              Exhibitions / Events
+            </Text>
+          </AnimatedBox>
+          <Grid
+            templateColumns={"repeat(auto-fit, minmax(200px, 1fr))"}
+            gap={6}
+          >
+            {ExhibitList.map((list, index) => (
+              <ExhibitCard
+                key={index}
+                name={list.name}
+                description={list.description}
+                relate={list.relate}
+                url={list.url}
+              />
+            ))}
+          </Grid>
+        </Box> */}
         {/* Works section */}
         <Box mt={10}>
           <AnimatedBox>
             <Text id="Works" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
-              Works
+              NFTs
             </Text>
             <Text color={secondary} mb={3}>
               Click on the works you like to visit the site 👀.
