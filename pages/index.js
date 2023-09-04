@@ -31,7 +31,7 @@ import ExhibitCard from "@/components/exhibitcard";
 import { ExhibitList } from "@/components/exhibitlist";
 import AnimatedBox from "@/components/animatedbox";
 
-import Portrait from "../public/face2.png";
+import Portrait from "../public/face3.png";
 // import Portrait from "../public/face.jpg";
 
 export default function Home() {
