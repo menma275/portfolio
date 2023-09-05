@@ -33,13 +33,15 @@ export default function Header() {
       // bg={colorMode === "light" ? "orange.50" : "gray.900"}
       color={colorMode === "light" ? "gray.900" : "gray.50"}
       backdropFilter="blur(20px)"
-      fontSize="md"
+      fontSize={"1rem"}
       align="center"
-      paddingY={(1, 1, 5, 5)}
+      paddingY={"0.75rem"}
+      // paddingY={(1, 1, 5, 5)}
     >
       <Link
         href="#"
-        fontSize={["xl", "2xl", "2xl", "3xl"]}
+        // fontSize={["xl", "2xl", "2xl", "3xl"]}
+        fontSize={"1.25rem"}
         letterSpacing={2}
         fontFamily={"Shippori Mincho"}
       >
