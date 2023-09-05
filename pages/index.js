@@ -184,7 +184,12 @@ export default function Home() {
         {/* Links section */}
         <Box>
           <AnimatedBox>
-            <Text id="Links" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={3}>
+            <Text
+              id="Links"
+              fontSize={["xl", "2xl", "2xl", "2xl"]}
+              mb={3}
+              fontFamily={"Shippori Mincho"}
+            >
               Links
             </Text>
           </AnimatedBox>
@@ -227,7 +232,12 @@ export default function Home() {
         {/* Works section */}
         <Box mt={10}>
           <AnimatedBox>
-            <Text id="Works" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
+            <Text
+              id="Works"
+              fontSize={["xl", "2xl", "2xl", "2xl"]}
+              mb={1}
+              fontFamily={"Shippori Mincho"}
+            >
               NFTs
             </Text>
             <Text color={secondary} mb={3}>
@@ -252,7 +262,12 @@ export default function Home() {
         <Box mt={10}>
           <AnimatedBox>
             <Element name="Contact">
-              <Text id="Contact" fontSize={["xl", "2xl", "2xl", "2xl"]} mb={1}>
+              <Text
+                id="Contact"
+                fontSize={["xl", "2xl", "2xl", "2xl"]}
+                mb={1}
+                fontFamily={"Shippori Mincho"}
+              >
                 Contact
               </Text>
             </Element>

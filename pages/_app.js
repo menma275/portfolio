@@ -7,6 +7,7 @@ export default function App({ Component, pageProps }) {
       theme={extendTheme({
         fonts: {
           body: "Poppins, sans-serif;",
+          headings: "Shippori Mincho, serif;",
         },
       })}
     >

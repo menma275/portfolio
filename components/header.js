@@ -37,7 +37,12 @@ export default function Header() {
       align="center"
       paddingY={(1, 1, 5, 5)}
     >
-      <Link href="#" fontSize={["xl", "2xl", "2xl", "3xl"]} letterSpacing={3}>
+      <Link
+        href="#"
+        fontSize={["xl", "2xl", "2xl", "3xl"]}
+        letterSpacing={2}
+        fontFamily={"Shippori Mincho"}
+      >
         sakamura
       </Link>
       <Spacer />
