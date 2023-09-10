@@ -16,7 +16,8 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { useColorMode, useColorModeValue } from "@chakra-ui/react";
-import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { HiMail } from "react-icons/hi";
 import { useState } from "react";
 import { Element } from "react-scroll";
@@ -27,8 +28,8 @@ import LinkCard from "@/components/linkcard";
 import { LinkList } from "@/components/linklist";
 import WorkCard from "@/components/workcard";
 import { WorkList } from "@/components/worklist";
-import ExhibitCard from "@/components/exhibitcard";
-import { ExhibitList } from "@/components/exhibitlist";
+// import ExhibitCard from "@/components/exhibitcard";
+// import { ExhibitList } from "@/components/exhibitlist";
 import AnimatedBox from "@/components/animatedbox";
 
 import Portrait from "../public/face3.png";
@@ -107,7 +108,7 @@ export default function Home() {
                     color: yellow,
                   }}
                 >
-                  <FaTwitter />
+                  <FaXTwitter />
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/kusuke-sakamura-09544325a"
@@ -143,7 +144,7 @@ export default function Home() {
                       color: yellow,
                     }}
                   >
-                    <FaTwitter />
+                    <FaXTwitter />
                   </Link>
                   <Spacer />
                   <Link
